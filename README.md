@@ -29,7 +29,7 @@ Commit the changes with a message describing them:
 Push the changes to GitHub. This step requires authentication.
 > git push origin main
 
-Authenticate if prompted:
+Authenticate if prompted:<br>
  . If you set up an SSH key, the push will authenticate automatically.<br>
  . If you’re using HTTPS, enter your GitHub username and token.
 
