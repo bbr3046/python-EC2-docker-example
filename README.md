@@ -9,6 +9,14 @@ username will be ubuntu for EC2 instance since that is the default user created.
 
 After adding the user to the group, restart the EC2 instance, now docker deamon can listen to the commands running with user ubuntu.
 
+Now docker demaon will work and test it using docker run Hello-world and now run the docker file.
+> `docker build -t image-tag-name path-to-dockerFile`
+
+Now login into docker hub using 
+> `docker login -u username`
+command and run the command
+> `docker push image-tag`
+
 
 Steps To Push The Changes To Remote Machine
 -------------------------------------------
