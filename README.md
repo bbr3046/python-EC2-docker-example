@@ -30,7 +30,7 @@ Push the changes to GitHub. This step requires authentication.
 > git push origin main
 
 Authenticate if prompted:
- . If you set up an SSH key, the push will authenticate automatically.
+ . If you set up an SSH key, the push will authenticate automatically.<br>
  . If you’re using HTTPS, enter your GitHub username and token.
 
 ###Additional Notes:
@@ -38,7 +38,7 @@ Authenticate if prompted:
 . If this is your first time pushing from the EC2 instance, make sure that:
 
 Git is configured with your username and email:
-> git config --global user.name "Your Name"
+> git config --global user.name "Your Name" <br>
 > git config --global user.email "you@example.com"
 
 . You have SSH keys set up and added to GitHub, or use a GitHub token for HTTPS authentication.
